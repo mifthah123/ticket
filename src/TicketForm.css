@@ -1,0 +1,107 @@
+.ticketdata {
+  margin: 10px auto 10px auto;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  display: flex;
+  align-items: flex-start;
+  width: 500px;
+}
+
+.date_container {
+  padding: 10px;
+  background-color: blueviolet;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  width: 100px;
+  height: 83px;
+}
+
+.date {
+  color: black;
+  display: block;
+}
+
+.date,
+.title,
+.description,
+.cust_name {
+  margin: 0;
+}
+
+.month {
+  font-size: 14px;
+}
+
+.day {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.year {
+  font-size: 14px;
+}
+
+.details_container {
+  margin: 0;
+  text-align: left;
+  margin-left: 20px;
+  height: 97px;
+  position: relative;
+}
+
+.data_box {
+  border-radius: 5px;
+  color: white;
+}
+
+.container_bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+.details_container {
+  flex: 1;
+}
+
+.description {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.edit {
+  background-color: rgb(87, 45, 255);
+  color: white;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 10px;
+}
+.comment {
+  color: white;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#GFG {
+  text-decoration: none;
+}
+
+.add_button {
+  background-color: rgb(87, 45, 255);
+  color: white;
+  border-radius: 5px;
+  border-width: 0;
+  margin-left: 2px;
+}

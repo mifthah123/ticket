@@ -1,0 +1,96 @@
+.menu_container {
+  margin-right: 700px;
+  padding-top: 0;
+  position: absolute;
+  margin-left: 10px;
+  width: 100px;
+}
+
+.menu_icon {
+  margin-right: 50px;
+  /* padding: 0 30px; */
+  padding-right: 15px;
+  padding-left: 7px;
+  cursor: pointer;
+  padding-top: 5px;
+  /* border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 15px; */
+  /* box-shadow: 0px 20px 25px 10px lightgray; */
+  margin-top: 13px;
+}
+
+.menu_icon:hover {
+  background-color: lightgray;
+  border-radius: 10%;
+  align-items: center;
+
+  border-bottom: none;
+}
+
+.menu_bar {
+  color: #5f6368;
+
+  /* -webkit-transition: color 1s;
+  transition: color 1s; */
+}
+
+/* .menu_bar:hover {
+  color: white;
+} */
+
+.menu_form_container {
+  padding-top: 10px;
+}
+
+.menu_form {
+  border-width: 1px;
+  background: rgba(252, 252, 252, 1) !important;
+  border-style: solid;
+  border-color: black;
+
+  border-radius: 5px;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  height: 450px;
+  margin-right: 30px;
+  width: 150px;
+  box-shadow: 0px 20px 25px 10px lightgray;
+  padding-top: 4px;
+}
+
+.menu_input > p {
+  color: black;
+  padding: 0;
+  /* display: flex; */
+  margin-left: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.menu_input > p:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0 30px;
+  border-bottom: none;
+}
+
+.menu_input > a {
+  color: black;
+  font-weight: 500;
+}
+
+.menu_input > a > p:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0 30px;
+  border-bottom: none;
+}
+
+#GFG {
+  text-decoration: none;
+}

@@ -1,0 +1,48 @@
+.edit_container {
+  padding-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.edit_box {
+  padding-top: 10px;
+  width: 500px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 20px 25px lightgray;
+  margin-right: 0;
+  margin-left: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.edit_form {
+  color: lightslategray;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.edit_layout {
+  width: 450px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.edit_button {
+  background-color: rgb(87, 45, 255);
+  color: white;
+  width: 470px;
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 0;
+  font-size: large;
+  margin-top: 10px;
+}
